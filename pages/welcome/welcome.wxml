@@ -1,0 +1,12 @@
+<!--pages/welcome/welcome.wxml-->
+<view class='container'>
+  <image class='user-avatar' src='/images/touxiang2.PNG'></image>
+  <text class='user-name'>
+    <text class='motto'>欢迎开启睡眠时间</text>
+  </text>
+  <view class='moto-container'  bindtap="bindViewTap">
+    <text class='moto' bindtap="onteztop">开启小程序之旅</text>
+  </view>
+
+  
+</view>
